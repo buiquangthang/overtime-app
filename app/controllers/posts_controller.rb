@@ -27,9 +27,9 @@ class PostsController < ApplicationController
 
   def update
     if @post.update post_params
-      redirect_to @post
+      redirect_to @post, notice: "Your post was edited successfull"
     else
-      render :edit, notice: "Your post was edited successfull"
+      render :edit
     end
   end
 
