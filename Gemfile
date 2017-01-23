@@ -31,3 +31,4 @@ gem 'bootstrap-sass'
 gem 'gritter'
 gem "administrate"
 gem 'bourbon'
+gem 'pundit'
